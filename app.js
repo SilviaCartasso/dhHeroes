@@ -16,6 +16,10 @@ app.get ("/babbage", function (req, res){
     res.sendFile (path.join(__dirname, "./views/babbage.html"))
 });
 
+app.get ("/berners-lee", function (req, res){
+    res.sendFile (path.join(__dirname, "./views/berners-lee.html"))
+});
+
 app.get ("/clarke", function (req, res){
     res.sendFile (path.join(__dirname, "./views/clarke.html"))
 });
